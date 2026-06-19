@@ -1,0 +1,9 @@
+# Core project (main.py, scanner.py, hasher.py, verifier.py) needs
+# NOTHING beyond the Python standard library.
+
+# Only required if you use the OPTIONAL real-time monitoring feature:
+watchdog>=3.0.0
+
+# Note: email_alert.py uses 'smtplib' (built into Python).
+# Note: gui.py uses 'tkinter' (built into Python on Windows/Mac;
+#       on some Linux distros you may need: sudo apt install python3-tk)
